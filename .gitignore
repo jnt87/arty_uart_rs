@@ -1,0 +1,11 @@
+/target
+
+# Generated Verilog (rebuilt by cargo run)
+blinker.v
+
+# Vivado artifacts
+*.jou
+*.log
+*.bit
+*.rpt
+.Xil/

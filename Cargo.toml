@@ -1,0 +1,9 @@
+[package]
+name = "arty_uart_rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rhdl = { git = "https://github.com/samitbasu/rhdl" }
+rhdl-fpga = { git = "https://github.com/samitbasu/rhdl" }
+miette = { version = "7", features = ["fancy"] }
